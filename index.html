@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-  <title>DEVC: Diffusion-based Expressive Voice Conversion with Emotional Prosody Modeling* </title>
+  <title>Coverting anyone's voice: expressive voice conversion with an end-to-end diffusion model* </title>
 </head>
 <style type="text/css">
   table {
@@ -46,8 +46,8 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-12">
-            <h1><a class="text-light"> DEVC: Diffusion-based Expressive Voice Conversion with Emotional Prosody Modeling </h1>
-              <font size=5><span style="color:#FFFFFF"> Anonymous submission to INTERSPEECH 2023</sup> </br></font>  </a>
+            <h1><a class="text-light"> Coverting anyone's voice: expressive voice conversion with an end-to-end diffusion model </h1>
+              <font size=5><span style="color:#FFFFFF"> Anonymous submission to ASRU 2023</sup> </br></font>  </a>
             <p>
               <div class="row">
               </div>
@@ -63,7 +63,7 @@
       <div class="row" id="result">
         <div class="col-md-12">
            <figcaption style="text-align:justify;"></font><font size=3> 
-          <b>Abstract</b>: Expressive voice conversion aims to convert speaker characteristics from one emotional speaker to another while preserving linguistic information. In this paper, we study a novel method to model speaker-dependent and speaker-independent emotional prosody across different speakers. We propose a fully end-to-end expressive voice conversion framework based on a denoising diffusion probabilistic model, which is conditioned on content and emotional prosody representations. To achieve proper disentanglement, we employ soft speech units from the HuBERT-Soft as content representations, and deep features derived from speech emotion recognition and speaker verification as emotional prosody features. At run-time, we convert the speaker-dependent emotional prosody while retaining speaker-independent emotional prosody and content information. Objective and subjective evaluations validate the effectiveness of proposed framework. Codes and samples are publicly available.
+          <b>Abstract</b>: Expressive voice conversion conducts identity conversion for emotional speakers by jointly converting speaker identity and emotion style. We note that the modeling of emotion style in expressive voice conversion has not been extensively explored. Furthermore, previous approaches have relied on vocoders for speech reconstruction, which has led to the generated speech quality being heavily dependent on the performance of the vocoders. We note that a major challenge of expressive voice conversion lies in emotion prosody modeling. To address these challenges, this paper proposes a fully end-to-end framework based on a denoising diffusion probabilistic model. We utilize speech units derived from self-supervised speech models as content representations, along with deep features extracted from speech emotion recognition and speaker verification systems, to model both emotion style and speaker identity, while preserving the speech content unchanged. Objective and subjective evaluations show the effectiveness of our any-to-any framework in identity conversion for emotional speakers. Codes and samples are publicly available.
 <br /><br />
 <b>Codes</b>: We will release our codes here once the paper is accepted.
 
